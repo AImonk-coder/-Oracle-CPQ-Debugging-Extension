@@ -1,0 +1,52 @@
+{
+  "name": "ibits-cpq-workbench",
+  "displayName": "IBITS CPQ Workbench",
+  "description": "Oracle CPQ metadata, rules, transactions, JSON tools and snippets in a colorful developer workspace.",
+  "version": "1.2.0",
+  "publisher": "ibits",
+  "author": {
+    "name": "Prudhvi Raju"
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Other",
+    "Snippets"
+  ],
+  "keywords": [
+    "Oracle",
+    "CPQ",
+    "IBITS",
+    "BML",
+    "BMQL"
+  ],
+  "main": "./extension.cjs",
+  "extensionKind": [
+    "ui"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": false
+    }
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "ibits.open",
+        "title": "IBITS: Open CPQ Workbench"
+      },
+      {
+        "command": "ibits.disconnect",
+        "title": "IBITS: Disconnect and Forget CPQ Credentials"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "npx @vscode/vsce package --allow-missing-repository"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AImonk-coder/-Oracle-CPQ-Debugging-Extension.git"
+  }
+}
