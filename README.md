@@ -1,6 +1,6 @@
 # IBITS CPQ Workbench for VS Code
 
-Created by **Prudhvi Raju · IBITS — Invisible Brains IT Solutions**.
+Created by **Prudhvi Raju · Oracle ACE**.
 
 The IBITS developer workspace, adapted for desktop VS Code: colorful Oracle CPQ metadata tables, REST inspection, JSON formatting and comparison, environment profiles, documentation and personal snippets.
 
